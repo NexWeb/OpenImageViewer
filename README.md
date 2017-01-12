@@ -9,10 +9,10 @@ It is a tool for both home users and professionals and it's designed for flexibi
 * Uses OpenGL and Direct3D11 as a back bone for displaying images.
 * Handles HUGE files up to 256 mega pixels (16MP per dimension)
 * Infinite panning, image keeps pan even when the mouse cursor is at the edge of the working area
-* custom panning limits - pan the image outside/inside the client rect - this is useful for example when you want to center on the screen a zoomed area of the image that is relativly close to the edge zoom the image and center on the screen a specific when 
+* custom panning limits - pan the image outside/inside the client rect - this is useful for example when you want to center on the screen a zoomed area of the image that is relativly close to the edge.
 * custom zoom in/out limits. 
 * Pixel grid.
-* Multi screen full screen - image spans across all monitors.
+* Multi full screen - image spans across all monitors.
 * Fine panning - image panning is smooth with no gaps between pan steps.
 * Exif support.
 * Full Image information (pixel format, transperency, size in memory, etc.)
@@ -29,6 +29,8 @@ It is a tool for both home users and professionals and it's designed for flexibi
 * Play animated images.
 * extract various typesof meta data
 
+--------------------------
+
 ## Build
 ### Windows
 #### Requirements
@@ -40,6 +42,14 @@ It is a tool for both home users and professionals and it's designed for flexibi
 2. The deafult source uses the embedded codec, if you do not want to exlcude the embedded codec 
 3. run the command "C:\Program Files (x86)\Microsoft Visual Studio\VS15Preview\MSBuild\15.0\Bin\MSBuild.exe" oiv.sln
 
+### Linux
+coming soon...
+
+### MacOS
+coming soon...
+
+
+-----------------------------
 
 ##License
 OIV is licensed under the OpenImageViewer License.
