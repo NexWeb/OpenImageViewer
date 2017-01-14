@@ -1,33 +1,31 @@
 # [O]pen [I]mage [V]iewer
 
-OIV is an hardware accelerated open source c++17 compliant cross platform 'C' library and application for viewing and manipulating images.  
-It is a tool for both home users and professionals and it's designed for flexibility, user experience and performance, both for loading and displaying images.
+OIV is an hardware accelerated blazingly fast open source c++17 compliant cross platform 'C' library and application for viewing and manipulating images.  
+It is a tool for both home users and professionals and it's designed for flexibility, user experience and performance.
 
-## OIV features
-* supports many image formats.
-* fast first image loading - loading the first image is at the highest priority when the OIV is being load, so iterations are cheap.
-* Uses OpenGL and Direct3D11 as a back bone for displaying images.
-* Handles HUGE files up to 256 mega pixels (16MP per dimension)
-* Infinite panning, image keeps pan even when the mouse cursor is at the edge of the working area
-* custom panning limits - pan the image outside/inside the client rect - this is useful for example when you want to center on the screen a zoomed area of the image that is relativly close to the edge.
-* custom zoom in/out limits. 
+## Features
+* Supports many image formats.
+* Fast intiial image load.
+* OpenGL and Direct3D11 as a back bone for displaying images.
+* Handles large files, up to 256 mega pixels (16 mega pixels per dimension).
+* Infinite panning, image keeps panning even when the mouse cursor is at the edge of the desktop working area.
+* **custom pan limits** - pan the image outside/inside the display area, this allows to center on the monitor any area of the image on any zoom level.
+* custom zoom limits. 
 * Pixel grid.
-* Multi full screen - image spans across all monitors.
-* Fine panning - image panning is smooth with no gaps between pan steps.
+* **Multi full screen** - image spans across all monitors.
+* Fine panning - image panning is smooth with the smalleset possible pan steps.
 * Exif support.
 * Full Image information (pixel format, transperency, size in memory, etc.)
 
-## Known limitation
-* 256Mega pixel image no more than 16M pixel per dimention
-
-## TODO
+## Todo
 * Complete cmake and compatiblity with G++, linux and MacOS.
 * Implement metal, vulkan and Direct3D12 renderers.
+* Support for images larger than 256 mega pixels.
 * Add image color transformations for adjusting brightness, contrast, saturation, hue, gamma, exposure.
-* Remove freeiamge as a fallback Codec and implement specialized codecs.
-* show sub images (DDS mipmaps, PSD layers, etc').
+* Remove freeimage as a fallback Codec and implement specialized codecs.
+* Show and preview sub images (DDS mipmaps, PSD layers, etc').
 * Play animated images.
-* extract various typesof meta data
+* Extract various type of meta data.
 
 --------------------------
 
@@ -51,5 +49,5 @@ coming soon...
 
 -----------------------------
 
-##License
+## License
 OIV is licensed under the OpenImageViewer License.
