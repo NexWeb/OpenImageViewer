@@ -45,9 +45,9 @@ No external dependencies are needed, it relies solely on the CRT (excluding embe
 
    2.2. Get the desired codec dependencies and add it to the relevant project  
      CodecJPG - libjpeg-turbo https://sourceforge.net/projects/libjpeg-turbo/  
-     CodecPng - libpng http://www.libpng.org/pub/png/libpng.html  
+     CodecPNG - libpng http://www.libpng.org/pub/png/libpng.html  
      CodecDDS - NVIDIA dds loader fork: https://github.com/paroj/nv_dds  
-     CodecPSD - libpsd fork:  https://github.com/TheNicker/libpsd
+     CodecPSD - libpsd fork:  https://github.com/TheNicker/libpsd  
      CodecFreeImage - http://freeimage.sourceforge.net/  
 
 
