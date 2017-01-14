@@ -35,12 +35,12 @@ No external dependencies are needed, it relies solely on the CRT (excluding embe
 ### Windows
 #### Requirements
 * Windows Vista/7/8/8.1/10
-* Microsoft build tools 2015
+* Microsoft build tools 2015 - download from here: https://www.microsoft.com/en-us/download/details.aspx?id=48159  
 
 #### Instructions
-1. Clone the repository  
+1. Clone the repository by running the command: git clone https://github.com/TheNicker/OpenImageViewer.git
 2. Embedded Codec dependencies:  
-   2.1. Modify "ImageCodec\ImageLoader\Source\BuildConfig.h" to choose which codecs are statically embedded into the image loader. 
+   2.1. Modify **"ImageCodec\ImageLoader\Source\BuildConfig.h"** to choose which codecs are statically embedded into the image loader. 
    Embedded codec are optional and they all may be disabled.
 
    2.2. Get the desired codec dependencies and add it to the relevant project  
@@ -51,7 +51,7 @@ No external dependencies are needed, it relies solely on the CRT (excluding embe
      CodecFreeImage - http://freeimage.sourceforge.net/  
 
 
-3. run the command "C:\Program Files (x86)\Microsoft Visual Studio\VS15Preview\MSBuild\15.0\Bin\MSBuild.exe" oiv.sln
+3. Build the project by running the command: "C:\Program Files (x86)\MSBuild\14.0\Bin" oiv.sln
 
 ### Linux
 coming soon ...
