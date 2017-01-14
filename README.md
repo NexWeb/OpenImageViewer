@@ -1,7 +1,8 @@
 # [O]pen [I]mage [V]iewer
 
 OIV is an hardware accelerated blazingly fast open source c++17 compliant cross platform 'C' library and application for viewing and manipulating images.  
-It is a tool for both home users and professionals and it's designed for flexibility, user experience and performance.
+It is a tool for both home users and professionals and it's designed for flexibility, user experience and performance.  
+No external dependencies are needed, it relies solely on the CRT (excluding embedded image codecs).
 
 ## Features
 * Supports many image formats.
@@ -20,6 +21,7 @@ It is a tool for both home users and professionals and it's designed for flexibi
 ## Todo
 * Complete cmake and compatiblity with G++, linux and MacOS.
 * Implement metal, vulkan and Direct3D12 renderers.
+* Add GPU support for Lanczos resampling.  
 * Support for images larger than 256 mega pixels.
 * Add image color transformations for adjusting brightness, contrast, saturation, hue, gamma, exposure.
 * Remove freeimage as a fallback Codec and implement specialized codecs.
@@ -37,24 +39,25 @@ It is a tool for both home users and professionals and it's designed for flexibi
 
 #### Instructions
 1. Clone the repository  
-2. Codec dependencies: till Cmake will be integrated, there's some manual labor involed.  
+2. Embedded Codec dependencies:  
+   2.1. Modify "ImageCodec\ImageLoader\Source\BuildConfig.h" to choose which codecs are statically embedded into the image loader. 
+   Embedded codec are optional and they all may be disabled.
 
-  a. Choose which codec to build by modifying the build configuration file: \ImageCodec\ImageLoader\Source\BuildConfig.h  
-  
-  b. Get the desired codec dependencies and add it to the relevant project  
+   2.2. Get the desired codec dependencies and add it to the relevant project  
      CodecJPG - libjpeg-turbo https://sourceforge.net/projects/libjpeg-turbo/  
-     CodecPng - http://www.libpng.org/pub/png/libpng.html  
-     CodecDDS - https://github.com/paroj/nv_dds  
+     CodecPng - libpng http://www.libpng.org/pub/png/libpng.html  
+     CodecDDS - NVIDIA dds loader fork: https://github.com/paroj/nv_dds  
+     CodecPSD - libpsd fork:  https://github.com/TheNicker/libpsd
      CodecFreeImage - http://freeimage.sourceforge.net/  
 
-   
+
 3. run the command "C:\Program Files (x86)\Microsoft Visual Studio\VS15Preview\MSBuild\15.0\Bin\MSBuild.exe" oiv.sln
 
 ### Linux
-coming soon...
+coming soon ...
 
 ### MacOS
-coming soon...
+coming soon ...
 
 
 -----------------------------
