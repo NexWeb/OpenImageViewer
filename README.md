@@ -38,7 +38,9 @@ It is a tool for both home users and professionals and it's designed for flexibi
 #### Instructions
 1. Clone the repository  
 2. Codec dependencies: till Cmake will be integrated, there's some manual labor involed.  
+
   a. Choose which codec to build by modifying the build configuration file: \ImageCodec\ImageLoader\Source\BuildConfig.h  
+  
   b. Get the desired codec dependencies and add it to the relevant project  
      CodecJPG - libjpeg-turbo https://sourceforge.net/projects/libjpeg-turbo/  
      CodecPng - http://www.libpng.org/pub/png/libpng.html  
