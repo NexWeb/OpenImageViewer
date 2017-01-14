@@ -36,8 +36,16 @@ It is a tool for both home users and professionals and it's designed for flexibi
 * Microsoft build tools 2015
 
 #### Instructions
-1. Clone the repository
-2. The deafult source uses the embedded codec, if you do not want to exlcude the embedded codec 
+1. Clone the repository  
+2. Codec dependencies: till Cmake will be integrated, there's some manual labor involed.  
+  a. Choose which codec to build by modifying the build configuration file: \ImageCodec\ImageLoader\Source\BuildConfig.h  
+  b. Get the desired codec dependencies and add it to the relevant project  
+     CodecJPG - libjpeg-turbo https://sourceforge.net/projects/libjpeg-turbo/  
+     CodecPng - http://www.libpng.org/pub/png/libpng.html  
+     CodecDDS - https://github.com/paroj/nv_dds  
+     CodecFreeImage - http://freeimage.sourceforge.net/  
+
+   
 3. run the command "C:\Program Files (x86)\Microsoft Visual Studio\VS15Preview\MSBuild\15.0\Bin\MSBuild.exe" oiv.sln
 
 ### Linux
