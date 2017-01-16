@@ -19,7 +19,7 @@ No external dependencies are needed, it relies solely on the CRT (excluding embe
 * Full Image information (pixel format, transperency, size in memory, etc.)
 
 ## Todo
-* Complete cmake and compatiblity with g++, linux and MacOS.
+* Complete CMake and compatiblity with g++, Linux and MacOS.
 * Implement Metal, Vulkan and Direct3D12 renderers.
 * Add GPU support for Lanczos resampling.  
 * Support for images larger than 256 mega pixels.
