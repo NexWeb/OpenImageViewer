@@ -6,7 +6,7 @@ No external dependencies are needed, it relies solely on the CRT (excluding embe
 
 ## Features
 * Supports many image formats.
-* Fast intial image load.
+* Fast initial image load.
 * OpenGL and Direct3D11 as a back bone for displaying images.
 * Handles large files, up to 256 mega pixels (16 mega pixels per dimension).
 * **Infinite panning**, image keeps panning even when the mouse cursor is at the edge of the desktop working area.
