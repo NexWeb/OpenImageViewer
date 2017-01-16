@@ -10,8 +10,8 @@ No external dependencies are needed, it relies solely on the CRT (excluding embe
 * OpenGL and Direct3D11 as a back bone for displaying images.
 * Handles large files, up to 256 mega pixels (16 mega pixels per dimension).
 * **Infinite panning**, image keeps panning even when the mouse cursor is at the edge of the desktop working area.
-* **custom pan limits** - pan the image outside/inside the display area, this allows to center on the monitor any area of the image on any zoom level.
-* custom zoom limits. 
+* **Custom pan limits** - pan the image outside/inside the display area, this allows to center on the monitor any area of the image on any zoom level.
+* Custom zoom limits. 
 * Pixel grid.
 * **Multi full screen** - image spans across all monitors.
 * **Fine panning** - image panning is bound only to screen space - image space panning could be less than 1 pixel.  
