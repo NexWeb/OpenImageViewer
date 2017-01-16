@@ -23,11 +23,11 @@ No external dependencies are needed, it relies solely on the CRT (excluding embe
 * Implement Metal, Vulkan and Direct3D12 renderers.
 * Add GPU support for Lanczos resampling.  
 * Support for images larger than 256 mega pixels.
-* Add image color transformations for adjusting brightness, contrast, saturation, hue, gamma, exposure.
+* Add image color transformations interface for adjusting brightness, contrast, saturation, etc.
 * Remove freeimage as a fallback Codec and implement specialized codecs.
-* Show and preview sub images (DDS mipmaps, PSD layers, etc').
+* Show and preview sub images (DDS mipmaps, PSD layers, etc.).
 * Play animated images.
-* Extract various type of meta data.
+* Extract various types of meta data.
 
 --------------------------
 
