@@ -20,7 +20,7 @@ No external dependencies are needed, it relies solely on the CRT (excluding embe
 
 ## Todo
 * Complete cmake and compatiblity with G++, linux and MacOS.
-* Implement metal, vulkan and Direct3D12 renderers.
+* Implement Metal, Vulkan and Direct3D12 renderers.
 * Add GPU support for Lanczos resampling.  
 * Support for images larger than 256 mega pixels.
 * Add image color transformations for adjusting brightness, contrast, saturation, hue, gamma, exposure.
@@ -40,8 +40,8 @@ No external dependencies are needed, it relies solely on the CRT (excluding embe
 #### Instructions
 1. Clone the repository by running the command: git clone https://github.com/TheNicker/OpenImageViewer.git
 2. Embedded Codec dependencies:  
-   2.1. Modify **"ImageCodec\ImageLoader\Source\BuildConfig.h"** to choose which codecs are statically embedded into the image loader. 
-   Embedded codec are optional and they all may be disabled.
+   2.1. Modify **"ImageCodec\ImageLoader\Source\BuildConfig.h"** to choose which codecs are statically embedded into the image loader.   
+   Embedded codecs are optional and they all may be disabled.
 
    2.2. Get the desired codec dependencies and add it to the relevant project  
      CodecJPG - libjpeg-turbo https://sourceforge.net/projects/libjpeg-turbo/  
