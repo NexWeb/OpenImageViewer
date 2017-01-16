@@ -38,20 +38,22 @@ No external dependencies are needed, it relies solely on the CRT (excluding embe
 * Microsoft build tools 2015 - download from here: https://www.microsoft.com/en-us/download/details.aspx?id=48159  
 
 #### Instructions
-1. Clone the repository by running the command: git clone https://github.com/TheNicker/OpenImageViewer.git
-2. Embedded Codec dependencies:  
-   2.1. Modify **"ImageCodec\ImageLoader\Source\BuildConfig.h"** to choose which codecs are statically embedded into the image loader.   
-   Embedded codecs are optional and they all may be disabled.
+**1. Get the source code:**
+Clone the repository by running the command: git clone https://github.com/TheNicker/OpenImageViewer.git
 
-   2.2. Get the desired codec dependencies and add it to the relevant project  
-     CodecJPG - libjpeg-turbo https://sourceforge.net/projects/libjpeg-turbo/  
-     CodecPNG - libpng http://www.libpng.org/pub/png/libpng.html  
-     CodecDDS - NVIDIA dds loader fork: https://github.com/paroj/nv_dds  
-     CodecPSD - libpsd fork:  https://github.com/TheNicker/libpsd  
-     CodecFreeImage - http://freeimage.sourceforge.net/  
+**2. Embedded Codec dependencies:**
+ Modify "ImageCodec\ImageLoader\Source\BuildConfig.h" to choose which codecs are statically embedded into the image loader.  
+Embedded codecs are optional and they all may be disabled.  
+Get the desired codec dependencies and add it to the relevant project.  
+            
+CodecJPG - libjpeg-turbo https://sourceforge.net/projects/libjpeg-turbo/  
+CodecPNG - libpng http://www.libpng.org/pub/png/libpng.html  
+CodecDDS - NVIDIA dds loader fork: https://github.com/paroj/nv_dds  
+CodecPSD - libpsd fork:  https://github.com/TheNicker/libpsd  
+CodecFreeImage - http://freeimage.sourceforge.net/  
 
 
-3. Build the project by running the command: "C:\Program Files (x86)\MSBuild\14.0\Bin" oiv.sln
+  **3. Build the project** by running the command: "C:\Program Files (x86)\MSBuild\14.0\Bin" oiv.sln
 
 ### Linux
 coming soon ...
