@@ -19,7 +19,7 @@ No external dependencies are needed, it relies solely on the CRT (excluding embe
 * Custom zoom limits. 
 * Pixel grid.
 * **Multi full screen** - image spans across all monitors.
-* **Fine panning** - image panning is bound only to screen space - image space panning could be less than 1 pixel.  
+* **Fine panning** - image panning is bound only to *screen space* - *image space panning* could be less than 1 pixel.  
 * Exif support.
 * Full Image information (pixel format, transperency, size in memory, etc.)
 
