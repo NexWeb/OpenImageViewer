@@ -65,4 +65,4 @@ coming soon ...
 -----------------------------
 
 ## License
-OIV is licensed under the OpenImageViewer License.
+OIV is licensed under the [OpenImageViewer License](license.md).
