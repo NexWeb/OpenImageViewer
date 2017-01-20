@@ -1,8 +1,13 @@
 # [O]pen [I]mage [V]iewer
 
-OIV is an hardware accelerated blazingly fast open source c++17 compliant cross platform 'C' library and application for viewing and manipulating images.  
+**OIV** is an hardware accelerated blazingly fast open code c++17 compliant cross platform 'C' library and application for viewing and manipulating images.  
 It is a tool for both home users and professionals and it's designed for flexibility, user experience and performance.  
 No external dependencies are needed, it relies solely on the CRT (excluding embedded image codecs).
+
+**OIV** is:  
+1. Independant c++ Image codec library.  
+2. C API image viewing engine.  
+3. Image viewer - windows only.    
 
 ## Features
 * Supports many image formats.
