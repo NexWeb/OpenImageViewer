@@ -44,7 +44,7 @@ No external dependencies are needed, it relies solely on the CRT (excluding embe
 
 #### Instructions
 **1. Get the source code:**
-Clone the repository by running the command: git clone https://github.com/TheNicker/OpenImageViewer.git
+Clone the repository by running the command: git clone https://github.com/OpenImageViewer/OIV
 
 **2. Embedded Codec dependencies:**
  Modify "ImageCodec\ImageLoader\Source\BuildConfig.h" to choose which codecs are statically embedded into the image loader.  
