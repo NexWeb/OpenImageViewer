@@ -4,3 +4,7 @@ extraction:
     configure:    # Customizable step used only by C/C++ extraction.
     before_index:    # Customizable step used by all languages.
     index:    # Customizable step used by all languages.
+      solution:
+       - oiv.sln
+      vstools_version:
+       - 17
