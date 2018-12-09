@@ -7,4 +7,4 @@ extraction:
       solution:
        - oiv.sln
       vstools_version:
-       - 17
+       - 15
