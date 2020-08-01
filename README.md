@@ -2,13 +2,15 @@
 ---
 ---
 ---
-# Moved to:
-## https://github.com/OpenImageViewer/OpenImageViewer
+
+# Moved!
+## New Website: www.openimageviewer.com
+## New Repository: https://github.com/OpenImageViewer/OpenImageViewer
 ---
 ---
 ---
 
-For more information visit our website: www.openimageviewer.com
+
 
 # Open Image Viewer
 
